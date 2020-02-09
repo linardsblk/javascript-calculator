@@ -1,0 +1,31 @@
+@import '../variables.scss';
+
+.button {
+    background-color: $background-color;
+    color: rgb(206, 209, 202);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: $element-height / 2;
+    text-align: center;
+}
+
+#clear {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#equals {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
+
+#zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}

@@ -1,0 +1,21 @@
+@import '../variables.scss';
+
+#display {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    background-color: rgb(245, 245, 245);
+    border: 5px rgb(225, 225, 225) solid;
+    border-radius: 15px;
+
+    color: black;
+    font-weight: bold;
+    font-size: $element-height/2;
+    line-height: $element-height/2;
+    text-align: end;
+
+    padding-right: 10px;
+    padding-left:10px;
+}

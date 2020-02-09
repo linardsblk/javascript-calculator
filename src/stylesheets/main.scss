@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+@import './components/calculator';
+@import './components/display';
+@import './components/button';
+
+.container {
+    background-color: $background-color;
+    height: 100vh;
+}

@@ -1,0 +1,18 @@
+@import '../variables.scss';
+
+.calculator {
+    width: 4 * $element-width + 3 * $element-gap;
+    background-color: $calc-background-color;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: $element-width $element-width $element-width $element-width;
+    grid-template-rows: $element-height/1.5 $element-height $element-height $element-height $element-height $element-height;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: $element-gap;
+
+    padding: $element-gap;
+    
+}
